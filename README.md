@@ -1,12 +1,12 @@
 # NTHU-Stay-Classy
 
 
-Project incentive
+##Project incentive
 選課是⼤學⽣活很重要的⼀部分。於⼀次與⼤⼀學弟妹的聊天過程中，發現有些同學因
 為從未接觸使⽤ BBS，所以不會得到 BBS 上的課程⼼得資訊，以⾄於盲⺫選課、在選課時對
 於⽼師的授課內容、評分⽅式不理解。因此我們想要建⽴⼀個網⾴版的課程經驗的平台，引
 導同學在選課時作出更明智的選擇。
-Project objective
+##Project objective
 • 蒐集資訊
 1. 從 BBS 上擷取⼤家對各課程的分享⽂章，分享⽂章中通常會包含⽤顆星數表達的
 甜度（越甜總分數越⾼）與涼度（越涼越輕鬆），另外，在分享⽂中會有⼀⼤段的⼼
@@ -24,20 +24,19 @@ Project objective
 • 搜尋功能 - 設定各種 filter 條件，解決現在校務資訊系統只能⽤⼀種條件搜尋的問題
 1. ⽼師、課名
 2. 涼度、甜度排序
-1
 3. 科系、通識向度
 4. 根據時段搜尋
-Proposed	approach	
-• Telnet client in JAVA - parse data from BBS
-• ⽤ MapReduce process ⽂章，產⽣標籤雲
-• ⽤ Association Rule 推薦課程（課程就是 item，同⼀學期的課就是 bucket）
-• Use inverted index to implement searching
-• AWS
-Expected	results
+##Proposed approach	
+*• Telnet client in JAVA - parse data from BBS
+*• ⽤ MapReduce process ⽂章，產⽣標籤雲
+*• ⽤ Association Rule 推薦課程（課程就是 item，同⼀學期的課就是 bucket）
+*• Use inverted index to implement searching
+*• AWS
+##Expected results
 			
 • 解決⾃從BBS沒落之後資訊分散的問題，期望能與校務資訊系統整合，形成⼀個新
 的資訊交換平台，省去到處	google、問學⻑姊的時間。
 Task	distribu5on	
-• ⺩俊智：推薦課程、訂閱功能
-• 徐亦杰：搜集資訊
-• 李				⽂：搜尋功能
+*• ⺩俊智：推薦課程、訂閱功能
+*• 徐亦杰：搜集資訊
+*• 李   ⽂：搜尋功能
